@@ -9,16 +9,18 @@
   </head>
 
   <body>
-    <header>
-      <h1>Random Puns</h1>
-      <button id="load-quote" class="load-quote">Show another Pun</button>
+    <header class = 'flex'>
+      <h1>Karl Pilkington Quote Generator</h1>
     </header>
 
     <div class="container">
       <div id="quote-box" class="quote-box">
-        <p class="quote">Every great developer you know got there by solving problems they were unqualified to solve until they actually did it.</p>
-        <p class="source">Patrick McKenzie<span class="citation">Twitter</span><span class="year">2016</span></p>
       </div>
+    </div>
+
+    <div class = 'flex'>
+      <button id="load-quote" class="load-quote">Show another Quoute</button>
+      <h3>The next quote will appear in <span id = 'time-left'>15</span></h3>
     </div>
     
     <script src="js/script.js"></script>
